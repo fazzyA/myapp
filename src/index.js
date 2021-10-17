@@ -9,7 +9,7 @@ import Gate from './Gate';
 ReactDOM.render(
   <React.StrictMode>
     <Gate isOpen={true}/>
-    <MediaCard title="My title" body={(<>this is <b>bold</b> text</>)} imageUrl={pic}/>
+    {/* <MediaCard title="My title" body={(<>this is <b>bold</b> text</>)} imageUrl={pic}/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

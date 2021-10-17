@@ -3,7 +3,7 @@ import React from 'react'
 const Gate = ({isOpen}) => {
     return (
         <div>
-           {isOpen ? (<b>open</b>) : (<h1>close</h1>)} 
+           {isOpen ? (<b>open</b>) : (<b>close</b>)} 
         </div>
     )
 }
